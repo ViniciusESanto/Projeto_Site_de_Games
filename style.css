@@ -7,7 +7,10 @@
     box-sizing: border-box;
 }
 
-header {
+header,
+section h2,
+section h3,
+form button {
     padding: 16px 0;
     background-color: blue;
     color: white;
@@ -68,7 +71,7 @@ section h2,
 section h3 {
     margin-bottom: 16px;
     font-family: 'Pixelify Sans', sans-serif;
-    color: blue;
+    color: white
 }
 
 section p {
@@ -79,19 +82,21 @@ section p {
     margin-right: 32px;
 }
 
-.container p {
+.container p,
+input, textarea {
     font-family: 'Rubik', sans-serif;
 }
 
 .social-link img,
 a {
-    height: 24px;
+    height: 48px;
     text-decoration: none;
 }
 
 .social-link li {
     display: inline;
     margin-right: 8px;
+    padding: 10px;
 }
 
 #contact .container {
@@ -114,4 +119,20 @@ form button {
 
 textarea {
     resize: none;
+    height: 180px
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(68, 68, 225);
 }
