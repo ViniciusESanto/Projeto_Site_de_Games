@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald:wght@300&family=Pixelify+Sans&family=Signika+Negative:wght@300&family=Space+Grotesk&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: blue;
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color:white;
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+}
+
+header nav li a {
+    color:white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
