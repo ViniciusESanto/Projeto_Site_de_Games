@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald:wght@300&family=Pixelify+Sans&family=Signika+Negative:wght@300&family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 * { 
     margin: 0;
@@ -10,7 +11,7 @@ header {
     padding: 16px 0;
     background-color: blue;
     color: white;
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
     font-size: 28px;
     text-align: center;
 }
@@ -35,8 +36,82 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container {
+.container img {
+    height: 400px;
+}
+
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2,
+section h3 {
+    margin-bottom: 16px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: blue;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.front-store {
+    margin-right: 32px;
+}
+
+.container p {
+    font-family: 'Rubik', sans-serif;
+}
+
+.social-link img,
+a {
+    height: 24px;
+    text-decoration: none;
+}
+
+.social-link li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
 }
